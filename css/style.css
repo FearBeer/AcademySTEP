@@ -1,1 +1,107 @@
-/* df;ksd;j 8 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+}
+
+nav {
+    height: 100vh;
+    width: 20vw;
+    background-color: rgb(228, 228, 228);
+}
+
+.container {
+    height: 100vh;
+    width: 80vw;
+    background-color: bisque;
+}
+
+main {
+    height: 90%;
+    width: 100%;
+    background-color: rgb(194, 194, 194);
+    padding: 32px;
+}
+
+footer {
+    height: 10%;
+    width: 100%;
+    background-color: rgb(168, 168, 168);
+}
+
+.logo {
+    height: 100px;
+    padding: 32px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.main_title {
+    padding-bottom: 75px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.wrap {
+    display: flex;
+}
+
+
+.info {
+    position: relative;
+    background-color: white;
+    padding: 16px;
+    width: 25%; 
+    margin-right: 30px;
+    box-shadow: 5px 5px 5px 0px rgba(104, 104, 104, 0.75), -2px -2px 5px 0px rgba(104, 104, 104, 0.75);
+}
+
+.info_hr {
+    clear: both;
+}
+
+.info_img {
+    background-color: green;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    padding: 10px;
+    position: absolute;
+    top: -30px;
+}
+
+.info_info {
+    float: right;
+    clear: both;
+    color: grey;
+}
+
+.info_info p {
+    text-align: right;
+    text-transform: capitalize;
+}
+
+.big {
+    font-size: 32px;
+    color: black;
+}
+
+.info:last-child {
+    margin-right: 0;
+}
+
+.info_text {
+    display: flex;
+    padding-top: 16px;
+}
+
+.info_text_img {
+    margin-right: 5px;
+}
+
+.info_text_text {
+    color: grey;
+}
