@@ -5,16 +5,17 @@
 }
 body {
     display: flex;
+    height: 100vh;
 }
 
 nav {
-    height: 100vh;
+    height: 100%;
     width: 20vw;
     background-color: rgb(228, 228, 228);
 }
 
 .container {
-    height: 100vh;
+    height: 100%;
     width: 80vw;
     
 }
@@ -73,23 +74,23 @@ nav {
 }
 
 main {
-    height: 90%;
+    height: 95%;
     width: 100%;
     background-color: rgb(194, 194, 194);
     padding: 1%;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     
 }
 
 .first {
     width: 100%;
-    height: 15%;
-    margin-bottom: 3%;
+    min-height: 15%;
+    margin-bottom: 2%;
 }
 
 .main_title {
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     font-size: 32px;
     font-weight: bold;
 }
@@ -120,7 +121,7 @@ main {
     max-width: 50%;
     max-height: 50%;
     display: flex;
-    padding: 3%;
+    padding: 1%;
     position: absolute;
     top: -10px;
 }
@@ -131,6 +132,7 @@ main {
     color: grey;
     max-height: 50%;
     margin-bottom: 1%;
+    clear: both;
 }
 
 .info_info p {
@@ -163,17 +165,53 @@ main {
 .second {
     width: 100%;
     height: 30%;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
 }
 
 .sec_info {
+    height:100%;
     width: 33%;
-    margin-bottom: 1%;
+    margin-bottom: 1%;    
+}
+
+.sec_img_text {
+    display: flex;
+}
+
+.sec_img {
+    max-width: 94%;
+    max-height: 60%;
+    
+}
+
+
+.absolute {
+    position: absolute;
+    top: 80%;
+    width: 94%;
+}
+/* .clearfix {
+    overflow: auto;    
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+.text {
+    position: absolute;
+    top: 60%;
+}
+
+.sec_img img {
+    width: 100%;
 }
 
 .third {
     width: 100%;
-    height: 50%;
+    height: 40%;
 }
 
 .third_info {
@@ -181,9 +219,10 @@ main {
 }
 
 footer {
-    height: 10%;
+    height: 5%;
     width: 100%;
     background-color: rgb(194, 194, 194);
+    position: sticky;
 }
 
 footer hr {
